@@ -4,17 +4,19 @@ end
 
 def sum_of_3_or_5_multiples(final_number)
    final_sum = 0
-   for i in 1..final_number
+   for i in 0..final_number-1
 
     if is_multiple_of_3_or_5(i)
         final_sum = final_sum + i
     end
 
     end
-    print final_sum
+    puts final_sum
+    return final_sum
 end
 
-sum_of_3_or_5_multiples(11)
+
+
 
 
 
